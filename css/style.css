@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav-link:hover{
+    color: orange !important;
+}
+header{
+    min-height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,.6) , rgba(0,0,0,.6))  , url(../images/shopping.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.shop{
+    padding-top: 260px;
+}
+.container .navbar-brand h1{
+    display: inline-block;
+}
+#product{
+    margin-top: 70px;
+}
+.sale{
+    min-height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,.6) , rgba(0,0,0,.6)) , url(../images/sale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 150px 200px;
+}
+#service i{
+    margin-left: 140px;
+    color: orange;
+}
+#contact{
+    margin-top: 70px;
+}
+footer{
+    margin-top: 30px;
+    background-color:whitesmoke;
+}
+.social-nav{
+    list-style: none;
+    float: left;
+}
+.social-nav li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.social-nav li a{
+    text-decoration: none;
+}
+.social-nav li a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+footer h2,p,.social-nav{
+    margin-left: 70px;
+}
+.info{
+    margin-top: 100px;
+}
